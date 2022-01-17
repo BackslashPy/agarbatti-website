@@ -1,0 +1,1402 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:400,700');
+
+
+
+/* center container in the middle */
+html {
+  display: grid;
+  min-height: 100%;
+}
+
+body {
+  display: grid;
+  background: #E0C9CB;
+  font-family: 'Lato', sans-serif;
+  text-transform: uppercase;
+}
+
+.container {
+  position: relative;
+  margin: auto;
+  overflow: hidden;
+  width: 520px;
+  height: 350px;
+  background: $white;
+  box-shadow: 5px 5px 15px rgba($rose, .5);
+  border-radius: 10px;
+}
+
+p {
+  font-size: 0.6em;
+  color: #BA7E7E;
+  letter-spacing: 1px;
+}
+
+h1 {
+  font-size: 1.2em;
+  color:  #4E4E4E;
+  margin-top: -5px;
+}
+
+h2 {
+  color:  #C3A1A0;
+  margin-top: -5px;
+}
+
+img {
+  width: 290px;
+  margin-top: 47px;
+}
+
+
+
+.product {
+  position: absolute;
+  width: 40%;
+  height: 100%;
+  top: 10%;
+  left: 60%;
+}
+
+.desc {
+  text-transform: none;
+  letter-spacing: 0;
+  margin-bottom: 17px;
+  color: #4E4E4E;
+  font-size: .7em;
+  line-height: 1.6em;
+  margin-right: 25px;
+  text-align: justify;
+}
+
+.focus{
+  background:  #BA7E7E;
+  color: #F5F5F5;
+}
+
+
+
+
+  <div class="container1">
+
+          <p>
+            <img src="assets/img/black.jpeg"   style="width: 290px; margin-top: 47px; align:left;" />
+                <h1>Black Diamond</h1>
+                
+                <br><h4>Number of Sticks per Box :18 gm</h4><br>
+                <h4>set of : 12</h4>
+                <h4>Sales Package : Agarbatti 12 Packets(Total 216gm)</h4>
+
+                <h3>Rs:12/-</h3>
+                <h1>General</h1>
+                <h4>Brand :Ramji Agarbatti</h4>
+                <h4>Model Name: Black Diamond</h4>
+                <h4>Type : Incense Sticks</h4>
+                <h4>Fragrance:Fancy Perfume</h4>
+                <h4>Box Shape : SQUARE</h4>
+                <h4>Maximum Shelf Life : 24 Months</h4>
+                <h4>Handmade : No</h4>
+
+                <h4>Model Number : B7045D</h4>
+                <h1>Additional Features </h1>
+                <h4> Country of Origin : Made in India</h4>
+              
+          </p>
+  </div>
+
+
+
+
+  <div class="container-fluid fh5co-recent-work activity"  >
+    <div class="container recent" >
+      <div class="row"  id="team" >
+        <h2>Our Team</h2>
+        <div class="owl-carousel owl-carousel3 owl-theme" >
+         
+          <div>
+            <div class="card"> <img class="card-img" src="assets/img/indrajit.jpg"  alt="">
+              <div class="card-img-overlay">
+                <div class="bottom-text">
+                  <h5 class="card-title">Indrajit Rakshit</h5>
+                  <a href="#">Founder & CEO, Agarbatti Manufacturing Expert <img  alt=""></a> 
+                </div>
+              </div>
+            </div>
+          </div>
+          
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="container-fluid fh5co-recent-work">
+      
+          <h1 align="center">About Us</h1>
+          <h3 style="color:white" align="center">"We are the manufacturer of Agarbatti. We are always focusing on customer satisfaction to make them happy. We are always trying to make our incense sticks better. The main purpose of our business is to give the best feelings to our beautiful customers."</h3>
+      
+
+  </div>
+
+  <div class="container-fluid fh5co-insta-feed activity">
+    <div class="container recent">
+
+      <h2 class="text-center d-block">Find us on social media</h2>
+      <div class="row social-links">
+        <ul class="nav mx-auto">
+
+          <li class="nav-item"> <a class="nav-link" href="https://www.facebook.com/ramjiagarbatti1/" target="_blank"><img src="assets/img/fblogo.png" alt=""></a> </li>
+          <li class="nav-item"> <a class="nav-link" href="https://www.instagram.com/ramji_agarbatti/" target="_blank"><img src="assets/img/insta.png" alt=""></a> </li>
+          
+
+
+        </ul>
+      </div>
+    </div>
+  </div>
+  <footer class="container-fluid p-0 pr-0">
+    <div class="row mr-0 ml-0">
+      <div class="col-md-6 pr-0 pl-0 map">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d14600.98409536664!2d91.2518807!3d23.809849!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x442521ff41afee39!2sRamji%20Agarbatti!5e0!3m2!1sen!2sin!4v1615360759914!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+      </div>
+      <div class="col-md-6 pr-0 pl-0 map"> 
+        <img class="card-img" src="assets/img/1001567.jpg" alt="">
+      </div>
+    </div>
+
+
+
+    <div class="copy pt-4 pb-4">
+      <p><a href="" target="_blank"> &copy;</a>  &nbsp;  |  &nbsp; Design by <a href="https://www.instagram.com/shubrajit_/" target="_blank">Shubrajit</a> &nbsp; | &nbsp;  All rights reserved</p>
+    </div>
+  </footer>
+
+  <!-- jQuery first, then Popper.js, then Bootstrap JS --> 
+  <script src="assets/js/jquery-3.3.1.slim.min.js"></script> 
+  <script src="assets/js/popper.min.js" ></script> 
+  <script src="assets/js/bootstrap.min.js"></script> 
+  <script src="assets/js/owl.carousel.min.js"></script> 
+  <script src="assets/js/main.js"></script>
+
+
+  <div class="p_banner_container">
+   <center>
+      <div class="p_image">
+         <img src="https://i.ibb.co/dcb2My2/Pics-Art-03-25-07-13-43.png"/>
+      </div>
+      <div class="p_image">
+         <img src="https://i.ibb.co/ngYzCz4/Pics-Art-03-25-07-18-17.png"/>
+      </div>
+      <div class="p_image">
+         <img src="https://i.ibb.co/M8qJ59w/Pics-Art-03-25-07-21-59.jpg"/>
+      </div>
+   </center>
+</div>
+<style>
+   .p_image{
+   margin:5px;
+   }
+   .p_image img{
+   margin-left:0px;
+   padding-left:0px;
+   width:80%;
+   }
+</style>
+
+
+
+    <div class="container1">
+        <div>
+
+            <img src="assets/img/rajnigandha.jpg"   style="width: 110px; margin-top: 5px; float:left;">
+        </div>
+
+        <div class="text" >
+                <h2 style="font-weight: bold;">Rajnigandha</h2>
+                
+                <h5>Number of Sticks per Box :18 gm</h5>
+                <h5>set of : 12</h5>
+                <h5>Sales Package : Agarbatti 12 Packets(Total 216gm)</h5>
+
+                <h1>Rs:12/-</h1>
+                <h5>General Features</h5>
+                <h5>Brand :Ramji Agarbatti</h5>
+                <h5>Model Name: Rajnigandha</h5>
+                <h5>Type : Incense Sticks</h5>
+                <h5>Fragrance:Fancy Perfume</h5>
+                <h5>Box Shape : SQUARE</h5>
+                <h5>Maximum Shelf Life : 24 Months</h5>
+                <h5>Handmade : No</h5>
+
+                <h5>Model Number : RAJ5040MN</h5>
+                <h5>Additional Features </h5>
+                <h5> Country of Origin : Made in India</h5>
+
+         </div>
+    </div>
+
+
+
+    <!DOCTYPE html>
+<html lang="en">
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+  <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+  <link rel="stylesheet" href="assets/css/style.css">
+  <title>Ramji Agarbatti</title>
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-md  fixed-top maine-menu">
+    <div class="container">
+      <button class="navbar-toggler ml-auto" data-target="#my-nav" onclick="myFunction(this)" data-toggle="collapse"> <span class="bar1"></span> <span class="bar2"></span> <span class="bar3"></span> </button>
+      <div id="my-nav" class="collapse navbar-collapse">
+        <ul class="navbar-nav mx-auto">
+          <li class="nav-item active" > <a class="nav-link" style="color:white; font-size: 30px;" href="#">Home</a> </li>
+          <li class="nav-item"> <a class="nav-link" style="color:white; font-size: 30px;" href="#about" tabindex="-1" aria-disabled="true">About</a></li>
+          <li class="nav-item"> <a class="nav-link" style="color:white; font-size: 30px;"  href="mailto:indrajitrakshit@ramjiagarbatti.com" tabindex="-1" aria-disabled="true">Contact</a></li>
+          <li class="nav-item"> <a class="nav-link" style="color:white; font-size: 30px;"  href="#team" tabindex="-1" aria-disabled="true">Team</a></li>
+          <li class="nav-item"> <a class="nav-link" style="color:white; font-size: 30px;"  href="tel:+91-7005128829" tabindex="-1" aria-disabled="true">Call Now</a></li>
+        </ul>
+
+
+
+      </div>
+    </div>
+  </nav>
+  <div class="container-fluid fh5co-home-banner">
+    <div class="card"> <img class="card-img" src="assets/img/stick.jpg" alt="">
+      <div class="card-img-overlay">
+        <div class="center-text">
+        
+          <p style="color:white; font-size: 80px;">Ramji Agarbatti</p>
+          <h4 style="color:white;font-style:italic;font-size: 40px">Apno ko laye pass</h4>
+
+          <a href="#explore" class="btn">
+            <svg width="201" height="51" viewBox="0 0 201 51">
+              <defs>
+                <style>
+                .cls-1 {
+                  fill: none;
+                  stroke-width: 1px;
+                  stroke: url(#linear-gradient);
+                }
+              </style>
+              <linearGradient id="linear-gradient" x1="140.508" y1="50.5" x2="60.492" y2="0.5" gradientUnits="userSpaceOnUse">
+                <stop offset="0" stop-color="#e90e65"/>
+                <stop offset="1" stop-color="#fff"/>
+              </linearGradient>
+            </defs>
+            <rect id="Rounded_Rectangle_1" data-name="Rounded Rectangle 1" class="cls-1" x="0.5" y="0.5" width="200" height="50" rx="25" ry="25"/>
+          </svg>
+        Products</a> </div>
+      </div>
+    </div>
+  </div>
+
+
+
+  <div class="container1">
+        <div>
+
+            <img src="assets/img/black.jpg"   style="width: 110px; margin-top: 5px; float:left;">
+        </div>
+
+        <div class="text" >
+                <h2 style="font-weight: bold;">Black Diamond</h2>
+                
+                <h5>Number of Sticks per Box :18 gm</h5>
+                <h5>set of : 12</h5>
+                <h5>Sales Package : Agarbatti 12 Packets(Total 216gm)</h5>
+
+                <h1>Rs:12/-</h1>
+                <h5>General Features</h5>
+                <h5>Brand :Ramji Agarbatti</h5>
+                <h5>Model Name: Black Diamond</h5>
+                <h5>Type : Incense Sticks</h5>
+                <h5>Fragrance:Fancy Perfume</h5>
+                <h5>Box Shape : SQUARE</h5>
+                <h5>Maximum Shelf Life : 24 Months</h5>
+                <h5>Handmade : No</h5>
+
+                <h5>Model Number : B7045D</h5>
+                <h5>Additional Features </h5>
+                <h5> Country of Origin : Made in India</h5>
+
+         </div>
+  </div>
+    <div class="container1">
+        <div>
+
+            <img src="assets/img/ramjispecial.jpg"   style="width: 110px; margin-top: 5px; float:left;">
+        </div>
+
+        <div class="text" >
+                <h2 style="font-weight: bold;">Ramji Special</h2>
+                
+                <h5>Number of Sticks per Box :18 gm</h5>
+                <h5>set of : 12</h5>
+                <h5>Sales Package : Agarbatti 12 Packets(Total 216gm)</h5>
+
+                <h1>Rs:12/-</h1>
+                <h5>General Features</h5>
+                <h5>Brand :Ramji Agarbatti</h5>
+                <h5>Model Name: Ramji Special</h5>
+                <h5>Type : Incense Sticks</h5>
+                <h5>Fragrance:Fancy Perfume</h5>
+                <h5>Box Shape : SQUARE</h5>
+                <h5>Maximum Shelf Life : 24 Months</h5>
+                <h5>Handmade : No</h5>
+
+                <h5>Model Number : SP201SL</h5>
+                <h5>Additional Features </h5>
+                <h5>Country of Origin : Made in India</h5>
+
+         </div>
+    </div>
+    <div class="container1">
+        <div>
+
+            <img src="assets/img/rajnigandha.jpg"   style="width: 110px; margin-top: 5px; float:left;">
+        </div>
+
+        <div class="text" >
+                <h2 style="font-weight: bold;">Rajnigandha</h2>
+                
+                <h5>Number of Sticks per Box :18 gm</h5>
+                <h5>set of : 12</h5>
+                <h5>Sales Package : Agarbatti 12 Packets(Total 216gm)</h5>
+
+                <h1>Rs:12/-</h1>
+                <h5>General Features</h5>
+                <h5>Brand :Ramji Agarbatti</h5>
+                <h5>Model Name: Rajnigandha</h5>
+                <h5>Type : Incense Sticks</h5>
+                <h5>Fragrance:Fancy Perfume</h5>
+                <h5>Box Shape : SQUARE</h5>
+                <h5>Maximum Shelf Life : 24 Months</h5>
+                <h5>Handmade : No</h5>
+
+                <h5>Model Number : RAJ5040MN</h5>
+                <h5>Additional Features </h5>
+                <h5> Country of Origin : Made in India</h5>
+
+         </div>
+    </div>
+    
+  <div class="container-fluid fh5co-recent-work activity"  >
+    <div class="container recent" >
+      <div class="row"  id="team" >
+        <h2>Our Team</h2>
+        <div class="owl-carousel owl-carousel3 owl-theme" >
+         
+          <div>
+            <div class="card"> <img class="card-img" src="assets/img/indrajit.jpg"  alt="">
+              <div class="card-img-overlay">
+                <div class="bottom-text">
+                  <h5 class="card-title">Indrajit Rakshit</h5>
+                  <a href="#">Founder & CEO, Agarbatti Manufacturing Expert <img  alt=""></a> 
+                </div>
+              </div>
+            </div>
+          </div>
+                    <div>
+            <div class="card"> <img class="card-img" src="assets/img/rahul.jpg"  alt="">
+              <div class="card-img-overlay">
+                <div class="bottom-text">
+                  <h5 class="card-title">Indrajit Rakshit</h5>
+                  <a href="#">Founder & CEO, Agarbatti Manufacturing Expert <img  alt=""></a> 
+                </div>
+              </div>
+            </div>
+          </div>
+                    <div>
+            <div class="card"> <img class="card-img" src="assets/img/nandan.jpg"  alt="">
+              <div class="card-img-overlay">
+                <div class="bottom-text">
+                  <h5 class="card-title">Indrajit Rakshit</h5>
+                  <a href="#">Founder & CEO, Agarbatti Manufacturing Expert <img  alt=""></a> 
+                </div>
+              </div>
+            </div>
+          </div>
+          
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="container-fluid fh5co-recent-work">
+      
+          <h1 align="center">About Us</h1>
+          <h3 style="color:white" align="center">"Ramji Agarbatti is presenting you the best of its incense sticks, which is exquisite in quality and leads you to the next level to the god’s way of devotion, once you light up the incense stick it will give you immense feeling of being gods all around you. the aroma of it will make the whole environment very much auspicious and divine. We are always focusing on customer satisfaction to make them happy. We are always trying to make our incense sticks better. The main purpose of our business is to give the best feelings to our beautiful customers”. Ramji brings to you Incense Sticks to uplift your homes or office’s atmosphere. It helps to freshens the air and neutralises bad odours with refreshing fragrances. You can use our products for anything from pujas to your meditation sessions. Enhance the ambience of your home or office with our incense sticks.."</h3>
+      
+
+  </div>
+
+  <div class="container-fluid fh5co-insta-feed activity">
+    <div class="container recent">
+
+      <h2 class="text-center d-block">Find us on social media</h2>
+      <div class="row social-links">
+        <ul class="nav mx-auto">
+
+          <li class="nav-item"> <a class="nav-link" href="https://www.facebook.com/ramjiagarbatti1/" target="_blank"><img src="assets/img/fblogo.png" alt=""></a> </li>
+          <li class="nav-item"> <a class="nav-link" href="https://www.instagram.com/ramji_agarbatti/" target="_blank"><img src="assets/img/insta.png" alt=""></a> </li>
+          
+
+
+        </ul>
+      </div>
+    </div>
+  </div>
+  <footer class="container-fluid p-0 pr-0">
+    <div class="row mr-0 ml-0">
+      <div class="col-md-6 pr-0 pl-0 map">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d14600.98409536664!2d91.2518807!3d23.809849!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x442521ff41afee39!2sRamji%20Agarbatti!5e0!3m2!1sen!2sin!4v1615360759914!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+      </div>
+      <div class="col-md-6 pr-0 pl-0 map"> 
+        <img class="card-img" src="assets/img/1001567.jpg" alt="">
+      </div>
+    </div>
+
+
+
+    <div class="copy pt-4 pb-4">
+      <p><a href="" target="_blank"> &copy;</a>  &nbsp;  |  &nbsp; Design by <a href="https://www.instagram.com/shubrajit_/" target="_blank">Shubrajit</a> &nbsp; | &nbsp;  All rights reserved</p>
+    </div>
+  </footer>
+
+  <!-- jQuery first, then Popper.js, then Bootstrap JS --> 
+  <script src="assets/js/jquery-3.3.1.slim.min.js"></script> 
+  <script src="assets/js/popper.min.js" ></script> 
+  <script src="assets/js/bootstrap.min.js"></script> 
+  <script src="assets/js/owl.carousel.min.js"></script> 
+  <script src="assets/js/main.js"></script>
+
+
+
+
+</body>
+</html>
+
+
+
+
+
+* {
+  margin: 0;
+  padding: 0; }
+
+/* Colors */
+/* fonts variable */
+
+@font-face {
+  font-family: "Oswald-Bold";
+  src: url(../fonts/Oswald-Bold.ttf); }
+
+@font-face {
+  font-family: "cursive";
+  src: url(../fonts/PT_Sans-Web-Bold.ttf); }
+
+@font-face {
+  font-family: "cursive";
+  src: url(../fonts/PT_Sans-Web-Regular.ttf); }
+
+@font-face {
+  font-family: "cursive";
+  src: url(../fonts/PT_Sans-Web-Italic.ttf); }
+
+body {
+  font-size: 16px;
+  font-family: "cursive"; }
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: " sans-serif"; }
+
+h2 {
+  font-size: 25px;
+  text-transform: uppercase; }
+  @media (max-width: 600px) {
+    h2 {
+      font-size: 18px; } }
+
+.maine-menu {
+  position: absolute;
+  top: 20px; }
+  .maine-menu .navbar-nav li .nav-link {
+    font-family: "cursive";
+    font-size: 16px;
+    text-transform: uppercase;
+    padding: 15px 25px;
+    color: #fff; }
+  .maine-menu .navbar-nav li.active a, .maine-menu .navbar-nav li:hover a, .maine-menu .navbar-nav li:visited a {
+    color: #8f0ac7; }
+  .maine-menu .bar1, .maine-menu .bar2, .maine-menu .bar3 {
+    width: 25px;
+    height: 2px;
+    background-color: #fff;
+    margin: 5px 0;
+    transition: 0.4s;
+    display: block;
+    position: relative; }
+  .maine-menu .change .bar1 {
+    -webkit-transform: rotate(-42deg) translate(-2px, 6px);
+    transform: rotate(-42deg) translate(-2px, 6px); }
+  .maine-menu .change .bar2 {
+    opacity: 0; }
+  .maine-menu .change .bar3 {
+    -webkit-transform: rotate(46deg) translate(-4px, -8px);
+    transform: rotate(46deg) translate(-4px, -8px); }
+  @media (max-width: 991px) {
+    .maine-menu .navbar-nav {
+      float: right; }
+      .maine-menu .navbar-nav li .nav-link {
+        font-family: "cursive";
+        font-size: 16px;
+        text-transform: uppercase;
+        padding: 7px 10px;
+        color: #fff; }
+    .maine-menu .collapse.show {
+      background: rgba(0, 0, 0, 0.5); } }
+
+.card {
+  border: none;
+  background: none;
+  border-radius: 0; }
+  .card img {
+    border-radius: 0; }
+
+.fh5co-home-banner {
+  padding: 0; }
+  .fh5co-home-banner .card {
+    border: none; }
+  .fh5co-home-banner h2 {
+    font-size: 52px;
+    color: #fff;
+    text-transform: uppercase;
+    max-width: 730px;
+    margin: 0 auto; }
+  .fh5co-home-banner a {
+    text-transform: uppercase;
+    color: #fff;
+    width: 198px;
+    border-radius: 40px;
+    margin-top: 50px;
+    padding: 13px 0; }
+    .fh5co-home-banner a svg {
+      position: absolute;
+      left: 0;
+      right: 0;
+      margin: 0 auto;
+      margin-top: -13px; }
+  .fh5co-home-banner .center-text {
+    text-align: center;
+    position: relative;
+    top: 35%; }
+  .fh5co-home-banner .card-img-overlay {
+    background: -webkit-linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.8), black);
+    background: -moz-linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.8), black);
+    background: -o-linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.8), black);
+    background: -linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.8), black); }
+  @media (max-width: 991px) {
+    .fh5co-home-banner h2 {
+      font-size: 30px;
+      max-width: 460px; }
+    .fh5co-home-banner .center-text {
+      top: 30%; } }
+  @media (max-width: 700px) {
+    .fh5co-home-banner a {
+      width: 140px;
+      padding: 4px 0; }
+      .fh5co-home-banner a svg {
+        height: 35px;
+        margin-top: -5px;
+        width: 140px; } }
+  @media (max-width: 600px) {
+    .fh5co-home-banner a {
+      margin-top: 20px; }
+    .fh5co-home-banner h2 {
+      font-size: 18px;
+      max-width: 260px; }
+    .fh5co-home-banner .center-text {
+      top: 30%; } }
+
+.fh5co-two-img .card-img-overlay {
+  background: -webkit-linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.8), black);
+  background: -moz-linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.8), black);
+  background: -o-linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.8), black);
+  background: -linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.8), black); }
+
+.contact-pop {
+  margin-top: -300px; }
+  .contact-pop .card-img-overlay {
+    background: -webkit-linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.6));
+    background: -moz-linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.6));
+    background: -o-linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.6));
+    background: -linear-linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.6));
+    border-radius: 15px 0 0 15px; }
+  .contact-pop .row {
+    max-width: 918px;
+    margin: 0 auto; }
+  .contact-pop img {
+    border-radius: 15px 0 0 15px; }
+  .contact-pop .content {
+    padding: 45px 20px 20px 40px;
+    height: 100%;
+    background: #fff;
+    border-radius: 0 15px 15px 0; }
+    .contact-pop .content h3 {
+      color: #3d383a;
+      font-size: 30px;
+      text-transform: uppercase;
+      margin-bottom: 10px; }
+    .contact-pop .content h4 {
+      color: #978b91;
+      font-size: 18px;
+      font-family: "cursive"; }
+    .contact-pop .content p {
+      color: #584f53; }
+    .contact-pop .content hr {
+      background-color: #b20ee9;
+      width: 50px;
+      height: 5px;
+      border: none;
+      margin-left: 0; }
+    .contact-pop .content a {
+      background-color: #ba0ee9;
+      width: 158px;
+      border-radius: 40px;
+      color: #fefefe;
+      padding: 10px 0;
+      margin-top: 20px; }
+    @media (max-width: 991px) {
+      .contact-pop .content {
+        padding: 20px 20px 20px 25px; }
+        .contact-pop .content h3 {
+          font-size: 24px; }
+        .contact-pop .content h4 {
+          font-size: 16px; }
+        .contact-pop .content p {
+          font-size: 14px; }
+        .contact-pop .content a {
+          width: 120px;
+          padding: 5px 0; }
+        .contact-pop .content hr {
+          margin: 10px 0; } }
+  @media (max-width: 991px) {
+    .contact-pop {
+      margin-top: -250px; } }
+  @media (max-width: 767px) {
+    .contact-pop {
+      margin-top: 0; }
+      .contact-pop .col-md-6 {
+        padding: 0; }
+      .contact-pop img {
+        border-radius: 15px 15px 0 0; }
+      .contact-pop .card-img-overlay {
+        border-radius: 15px 15px 0 0; }
+      .contact-pop .content {
+        border-radius: 0 0 15px 15px; } }
+
+.owl-carousel, .owl-carousel .owl-item {
+  -webkit-tap-highlight-color: transparent;
+  position: relative; }
+
+.owl-carousel {
+  display: none;
+  width: 100%;
+  z-index: 1; }
+
+.owl-carousel .owl-stage {
+  position: relative;
+  -ms-touch-action: pan-Y;
+  touch-action: manipulation;
+  -moz-backface-visibility: hidden; }
+
+.owl-carousel .owl-stage:after {
+  content: ".";
+  display: block;
+  clear: both;
+  visibility: hidden;
+  line-height: 0;
+  height: 0; }
+
+.owl-carousel .owl-stage-outer {
+  position: relative;
+  overflow: hidden;
+  -webkit-transform: translate3d(0, 0, 0); }
+
+.owl-carousel .owl-item, .owl-carousel .owl-wrapper {
+  -webkit-backface-visibility: hidden;
+  -moz-backface-visibility: hidden;
+  -ms-backface-visibility: hidden;
+  -webkit-transform: translate3d(0, 0, 0);
+  -moz-transform: translate3d(0, 0, 0);
+  -ms-transform: translate3d(0, 0, 0); }
+
+.owl-carousel .owl-item {
+  min-height: 1px;
+  float: left;
+  -webkit-backface-visibility: hidden;
+  -webkit-touch-callout: none; }
+
+.owl-carousel .owl-item img {
+  display: block;
+  width: 100%; }
+
+.owl-carousel .owl-dots.disabled, .owl-carousel .owl-nav.disabled {
+  display: none; }
+
+.no-js .owl-carousel, .owl-carousel.owl-loaded {
+  display: block; }
+
+.owl-carousel .owl-dot, .owl-carousel .owl-nav .owl-next, .owl-carousel .owl-nav .owl-prev {
+  cursor: pointer;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none; }
+
+.owl-carousel .owl-nav button.owl-next, .owl-carousel .owl-nav button.owl-prev, .owl-carousel button.owl-dot {
+  background: 0 0;
+  color: inherit;
+  border: none;
+  padding: 0 !important;
+  font: inherit; }
+
+.owl-carousel.owl-loading {
+  opacity: 0;
+  display: block; }
+
+.owl-carousel.owl-hidden {
+  opacity: 0; }
+
+.owl-carousel.owl-refresh .owl-item {
+  visibility: hidden; }
+
+.owl-carousel.owl-drag .owl-item {
+  -ms-touch-action: pan-y;
+  touch-action: pan-y;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none; }
+
+.owl-carousel.owl-grab {
+  cursor: move;
+  cursor: grab; }
+
+.owl-carousel.owl-rtl {
+  direction: rtl; }
+
+.owl-carousel.owl-rtl .owl-item {
+  float: right; }
+
+.owl-carousel .animated {
+  animation-duration: 1s;
+  animation-fill-mode: both; }
+
+.owl-carousel .owl-animated-in {
+  z-index: 0; }
+
+.owl-carousel .owl-animated-out {
+  z-index: 1; }
+
+.owl-carousel .fadeOut {
+  animation-name: fadeOut; }
+
+@keyframes fadeOut {
+  0% {
+    opacity: 1; }
+  100% {
+    opacity: 0; } }
+
+.owl-height {
+  transition: height .5s ease-in-out; }
+
+.owl-carousel .owl-item .owl-lazy {
+  opacity: 0;
+  transition: opacity .4s ease; }
+
+.owl-carousel .owl-item .owl-lazy:not([src]), .owl-carousel .owl-item .owl-lazy[src^=""] {
+  max-height: 0; }
+
+.owl-carousel .owl-item img.owl-lazy {
+  transform-style: preserve-3d; }
+
+.owl-carousel .owl-video-wrapper {
+  position: relative;
+  height: 100%;
+  background: #000; }
+
+.owl-carousel .owl-video-play-icon {
+  position: absolute;
+  height: 80px;
+  width: 80px;
+  left: 50%;
+  top: 50%;
+  margin-left: -40px;
+  margin-top: -40px;
+  background: url(owl.video.play.png) no-repeat;
+  cursor: pointer;
+  z-index: 1;
+  -webkit-backface-visibility: hidden;
+  transition: transform .1s ease; }
+
+.owl-carousel .owl-video-play-icon:hover {
+  -ms-transform: scale(1.3, 1.3);
+  transform: scale(1.3, 1.3); }
+
+.owl-carousel .owl-video-playing .owl-video-play-icon, .owl-carousel .owl-video-playing .owl-video-tn {
+  display: none; }
+
+.owl-carousel .owl-video-tn {
+  opacity: 0;
+  height: 100%;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  transition: opacity .4s ease; }
+
+.owl-carousel .owl-video-frame {
+  position: relative;
+  z-index: 1;
+  height: 100%;
+  width: 100%; }
+
+.fh5co-recent-work {
+  background: #ba0ee9;
+  padding: 5px 0; }
+  @media (max-width: 767px) {
+    .fh5co-recent-work {
+      padding-bottom: 0; }
+     }
+
+.recent {
+  margin-top: 35px; }
+  .recent h2 {
+    color: #fff; }
+  .recent .owl-carousel .owl-stage-outer {
+    padding-top: 30px;
+    padding-bottom: 50px; }
+  .recent .owl-carousel .owl-nav {
+    display: block;
+    position: absolute;
+    top: -30px;
+    right: 0;
+    color: #fff; }
+    .recent .owl-carousel .owl-nav .owl-prev, .recent .owl-carousel .owl-nav .owl-next {
+      height: 23px;
+      width: 23px;
+      text-align: center;
+      padding: 0;
+      border: 1px solid #fff;
+      border-radius: 50%;
+      margin: 0 2px; }
+      .recent .owl-carousel .owl-nav .owl-prev:hover, .recent .owl-carousel .owl-nav .owl-next:hover {
+        background: #fff;
+        color: #a70ee9; }
+      .recent .owl-carousel .owl-nav .owl-prev span, .recent .owl-carousel .owl-nav .owl-next span {
+        position: relative;
+        display: block;
+        top: -2px; }
+    .recent .owl-carousel .owl-nav button {
+      outline: none; }
+  .recent .card {
+    border-radius: 15px;
+    margin-bottom: 30px;
+    transition: all 0.3s;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s; }
+    .recent .card .card-img {
+      border-radius: 15px; }
+    .recent .card h5 {
+      font-size: 20px;
+      color: #fff;
+      margin-bottom: 5px; }
+    .recent .card p {
+      font-size: 14px;
+      color: #8e0ee9; }
+    .recent .card.active, .recent .card:hover {
+      transform: scale(1.05, 1.1);
+      -webkit-transform: scale(1.05, 1.1);
+      -ms-transform: scale(1.05, 1.1);
+      -moz-transform: scale(1.05, 1.1);
+      box-shadow: 0px 20px 32px 0px rgba(0, 0, 0, 0.25); }
+      .recent .card.active .card-img-overlay, .recent .card:hover .card-img-overlay {
+        background: -webkit-linear-gradient(rgba(0, 0, 0, 0.3), rgba(233, 14, 101, 0.95));
+        background: -moz-linear-gradient(rgba(0, 0, 0, 0.3), rgba(233, 14, 101, 0.95));
+        background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(233, 14, 101, 0.95));
+        background: -ms-linear-gradient(rgba(0, 0, 0, 0.3), rgba(233, 14, 101, 0.95)); }
+      .recent .card.active p, .recent .card:hover p {
+        color: #e587ac; }
+  .recent .card-img-overlay {
+    border-radius: 15px;
+    background: -webkit-linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.85));
+    background: -moz-linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.85));
+    background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.85));
+    background: -ms-linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.85));
+    background: -o-linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.85)); }
+  .recent .heart {
+    width: auto !important; }
+  .recent .bottom-text {
+    position: absolute;
+    bottom: 30px; }
+  @media (max-width: 767px) {
+    .recent {
+      margin-top: 100px; } }
+
+.fh5co-portfolio {
+  background-color: #f2d5d7;
+  background-image: url(../img/camera-bg.jpg);
+  background-position: right bottom;
+  background-repeat: no-repeat;
+  padding: 100px 0;
+  margin-top: 0; }
+  .fh5co-portfolio h2 {
+    color: #584f53;
+    margin-bottom: 20px; }
+  .fh5co-portfolio .card {
+    margin-bottom: 0; }
+    .fh5co-portfolio .card.active, .fh5co-portfolio .card:hover {
+      transform: none;
+      box-shadow: none; }
+  .fh5co-portfolio .bottom-text {
+    bottom: 15px; }
+  .fh5co-portfolio .bx {
+    float: left;
+    padding: 7px; }
+  @media (max-width: 1199px) {
+    .fh5co-portfolio .bx-1, .fh5co-portfolio .bx-4 {
+      width: 32.5%; }
+    .fh5co-portfolio .bx-2 {
+      width: 41%; }
+    .fh5co-portfolio .bx-3 {
+      width: 26.5%; }
+    .fh5co-portfolio .bx-middle {
+      width: 67.5%; }
+    .fh5co-portfolio .bx-5, .fh5co-portfolio .bx-8 {
+      width: 39%; }
+    .fh5co-portfolio .bx-6, .fh5co-portfolio .bx-7 {
+      width: 61%; } }
+  @media (max-width: 991px) {
+    .fh5co-portfolio h5 {
+      font-size: 16px !important; } }
+  @media (max-width: 767px) {
+    .fh5co-portfolio h5 {
+      font-size: 14px !important; } }
+  @media (max-width: 576px) {
+    .fh5co-portfolio h5 {
+      font-size: 16px !important; }
+    .fh5co-portfolio .bx {
+      width: auto !important;
+      display: inline-block;
+      float: none;
+      margin: 3px auto; }
+    .fh5co-portfolio .bx-middle {
+      text-align: center !important; }
+      .fh5co-portfolio .bx-middle .heart {
+        float: left !important; } }
+
+.activity {
+  background: #f3e7e8;
+  padding-bottom: 50px; }
+  .activity .recent {
+    margin-top: 0; }
+  .activity h2 {
+    color: #584f53; }
+  .activity .owl-carousel .owl-nav .owl-prev, .activity .owl-carousel .owl-nav .owl-next {
+    color: #212020;
+    border-color: #212020; }
+    .activity .owl-carousel .owl-nav .owl-prev:hover, .activity .owl-carousel .owl-nav .owl-next:hover {
+      background: #212020;
+      color: #fff; }
+  .activity .card {
+    margin-bottom: 0;
+    box-shadow: 0px 10px 21px 0px rgba(0, 0, 0, 0.2); }
+    .activity .card .card-img-overlay {
+      background: -webkit-linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.6));
+      background: -moz-linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.6));
+      background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.6));
+      background: -ms-linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.6)); }
+    .activity .card.active, .activity .card:hover {
+      transform: none;
+      box-shadow: none; }
+      .activity .card.active .card-img-overlay, .activity .card:hover .card-img-overlay {
+        background: -webkit-linear-gradient(rgba(0, 0, 0, 0.3), rgba(233, 14, 101, 0.95));
+        background: -moz-linear-gradient(rgba(0, 0, 0, 0.3), rgba(233, 14, 101, 0.95));
+        background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(233, 14, 101, 0.95));
+        background: -ms-linear-gradient(rgba(0, 0, 0, 0.3), rgba(233, 14, 101, 0.95)); }
+      .activity .card.active p, .activity .card:hover p {
+        color: #e587ac; }
+    .activity .card h5 {
+      font-size: 22px; }
+    .activity .card:hover a {
+      display: inline-block; }
+  .activity .card-img-overlay {
+    padding: 0 2.2rem; }
+    .activity .card-img-overlay a {
+      display: none;
+      font-size: 20px;
+      color: #fff;
+      text-decoration: none;
+      margin-top: 10px; }
+      .activity .card-img-overlay a img {
+        width: 20px;
+        display: inline-block;
+        color: #fff; }
+
+.fh5co-about-me {
+  padding: 0; }
+  .fh5co-about-me .card-img-overlay {
+    background-color: rgba(167, 14, 233, 0.902); }
+  .fh5co-about-me h2 {
+    text-align: center;
+    color: #fff;
+    margin: 70px auto; }
+  .fh5co-about-me .card-img {
+    min-height: 730px; }
+  .fh5co-about-me .carousel-indicators {
+    bottom: 100px; }
+    .fh5co-about-me .carousel-indicators li {
+      height: 89px;
+      width: 89px;
+      z-index: 55;
+      text-indent: 5px;
+      border: 1px solid #fafafa;
+      border-style: solid;
+      border-radius: 50%;
+      padding: 3px;
+      background: none;
+      margin: 0 20px;
+      position: relative;
+      top: 43px;
+      opacity: 0.5; }
+      .fh5co-about-me .carousel-indicators li span {
+        font-family: "cursive";
+        font-size: 18px;
+        text-align: center;
+        margin-top: 20px;
+        display: none;
+        color: #fff; }
+      .fh5co-about-me .carousel-indicators li img {
+        width: 100%;
+        position: relative;
+        left: -5px; }
+      .fh5co-about-me .carousel-indicators li.active {
+        height: 166px;
+        width: 166px;
+        opacity: 1;
+        top: 0px;
+        padding: 7px; }
+        .fh5co-about-me .carousel-indicators li.active span {
+          display: block; }
+  .fh5co-about-me .carousel-caption {
+    bottom: 335px; }
+    .fh5co-about-me .carousel-caption p {
+      max-width: 540px;
+      margin: 0 auto;
+      margin-top: 50px; }
+  @media (max-width: 991px) {
+    .fh5co-about-me .card-img {
+      position: relative;
+      width: 150% !important;
+      margin-left: -25%;
+      margin-right: -25%; } }
+  @media (max-width: 720px) {
+    .fh5co-about-me h2 {
+      margin: 20px auto; }
+    .fh5co-about-me .F-img {
+      min-height: 575px; }
+    .fh5co-about-me .carousel-caption {
+      left: 5%;
+      right: 5%;
+      bottom: 270px; }
+      .fh5co-about-me .carousel-caption p {
+        margin-top: 20px; }
+      .fh5co-about-me .carousel-caption img {
+        max-width: 50px; }
+    .fh5co-about-me .carousel-indicators {
+      bottom: 100px;
+      margin-left: 5%;
+      margin-right: 5%; }
+      .fh5co-about-me .carousel-indicators li {
+        height: 60px;
+        width: 60px;
+        margin: 0 10px;
+        top: 20px; }
+        .fh5co-about-me .carousel-indicators li span {
+          font-size: 14px; }
+        .fh5co-about-me .carousel-indicators li.active {
+          height: 100px;
+          width: 100px; } }
+
+.feed-caro {
+  padding-top: 36px; }
+  @media (max-width: 1199px) {
+    .feed-caro {
+      padding-top: 95px; } }
+
+.social-links {
+  margin-top: 20px; }
+  .social-links ul li {
+    text-align: center;
+    margin: 0 10px; }
+    .social-links ul li a {
+      border: px solid #a59299;
+      border-radius: 50%;
+      width: px;
+      height: px;
+      padding: 0;
+      padding-top: 15px; }
+    .social-links ul li:hover a, .social-links ul li:visited a {
+      background: #fff; }
+
+footer {
+  background: #ba0ee9; }
+  footer iframe {
+    height: 100%;
+    width: 100%; }
+  footer .contact-form {
+    border-radius: 25px;
+    padding: 35px;
+    background-color: #fff;
+    box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.2);
+    width: 100%;
+    max-width: 380px;
+    margin: 117px auto; }
+    footer .contact-form h3 {
+      color: #ba0ee9;
+      font-size: 20px;
+      text-align: center;
+      margin-bottom: 20px; }
+    footer .contact-form .form-control {
+      margin-bottom: 20px;
+      border: none;
+      background-color: #ebd8df;
+      border-radius: 25px;
+      font-size: 15px;
+      padding: 25px 30px; }
+    footer .contact-form ::-webkit-input-placeholder {
+      color: #928f8f; }
+    footer .contact-form textarea {
+      height: 203px;
+      resize: none;
+      padding-top: 20px !important; }
+    footer .contact-form button {
+      background: #e90e65;
+      width: 140px;
+      padding: 13px 0;
+      font-size: 15px;
+      color: #fff;
+      border: none;
+      border-radius: 40px;
+      margin: 0 auto;
+      display: block;
+      cursor: pointer; }
+      footer .contact-form button:hover, footer .contact-form button:visited {
+        background: #c70b56; }
+  footer .copy {
+    background: #282526;
+    text-align: center; }
+    footer .copy p {
+      color: #fff; }
+    footer .copy a {
+      color: #fff;
+      transition: 0.3s ease;
+      text-decoration: none; }
+      footer .copy a:hover {
+        color: #e90e65; }
+  @media (max-width: 1199px) {
+    footer .contact-form {
+      margin: 50px auto; } }
+  @media (max-width: 767px) {
+    footer .map {
+      min-height: 300px; } }
+
+@media (max-width: 767px) {
+  .row {
+    margin-left: 0;
+    margin-right: 0; }
+  .container-fluid {
+    padding-left: 0;
+    padding-right: 0; } }
+
+/* Blog page style */
+.fh5co-blog-content {
+  background-image: url(../img/girl2.jpg);
+  background-position: right bottom;
+  background-repeat: no-repeat;
+  background-size: cover; }
+
+
+       .container1 {
+        margin: 20px auto ;
+        width: 50%;
+        padding: 40px;
+             }
+      
+      .text {
+      
+        font-family: sans-serif;
+        font-size: 16px;
+        letter-spacing: 1px;
+        font-weight:600;
+             }
+             
+      @media screen and (min-width: 480px) {
+              .container1 {
+             
+                display: block;
+              }
+            }
+.p_image{
+      margin:5px;
+ }
+.p_image img{
+              margin-left:0px;
+              padding-left:0px;
+              width:80%;
+       }
+
+
+
+      <div class="container recent" id="explore">
+        <div class="row">
+              
+              <div class="p_banner_container">
+                      <center>
+                      <h1>Our Products</h1>
+                          <div class="p_image">
+                            <img src=""/>
+                          </div>
+                          <div class="p_image">
+                            <img src=""/>
+                          </div>
+                          <div class="p_image">
+                            <img src=""/>
+                          </div>
+                      </center>
+                </div>
+        </div>
+      </div>
+
+
+
+
+
+
+        <div class="p_banner_container" id="explore">
+            <center>
+            <h1>Our Products</h1>
+                <div class="p_image">
+                  <img src="assets/img/ramji.png"/>
+                </div>
+                <div class="p_image">
+                  <img src="assets/img/rajni.png"/>
+                </div>
+                <div class="p_image">
+                  <img src="assets/img/black.png"/>
+                </div>
+                <div class="p_image">
+                  <img src="assets/img/black.png"/>
+                </div>
+                <div class="p_image">
+                  <img src="assets/img/black.png"/>
+                </div>
+            </center>
+  </div>
+
+  <div class="p_banner_container" id="explore">
+            <center>
+            <h1>Our Products</h1>
+                <div class="p_image">
+                  <img src="assets/img/ramji.png"/>
+                </div>
+                <div class="p_image">
+                  <img src="assets/img/rajni.png"/>
+                </div>
+                <div class="p_image">
+                  <img src="assets/img/black.png"/>
+                </div>
+
+            </center>
+  </div>
+
+
+
+
+
+          <div class="container1">
+        <div>
+
+            <img src="assets/img/rajinigandha.jpg"   style="width: 110px; margin-top:5px; float:left; margin-right:65px; padding-right:px;">
+        </div>
+
+        <div class="text" >
+                <h2 style="font-weight: bold;">Rajnigandha</h2>
+                <h1>Rs:12/-</h1>
+                
+                <h5>Number of Sticks per Box :18 gm</h5>
+                <h5>set of : 12</h5>
+                <h5>Sales Package : Agarbatti 12 Packets(Total 216gm)</h5>
+
+                
+                <h4 style="font-weight: bold;">General Features</h4>
+                <h5>Brand : Ramji Agarbatti</h5>
+                <h5>Model Name : Rajnigandha</h5>
+                <h5>Type : Incense Sticks</h5>
+                <h5>Fragrance : Flower</h5>
+                <h5>Box Shape : SQUARE</h5>
+                <h5>Maximum Shelf Life : 24 Months</h5>
+                <h5>Handmade : No</h5>
+
+                <h5>Model Number : RAJ5040MN</h5>
+                <h4 style="font-weight: bold;">Additional Features </h4>
+                <h5> Country of Origin : Made in India</h5>
+
+         </div>
+    </div>
+
+
+
+    
+
+    <div class="container1">
+        <div>
+
+            <img src="assets/img/CS55.jpg"   style="width: 110px; margin-top:5px; float:left; margin-right:65px; padding-right:px;">
+        </div>
+
+        <div class="text" >
+                <h1 style="font-weight: bold; color:white;">Coming Soon</h1>
+                <h1 style="color:white;">Rs:25/-</h1>
+                
+                <h1 style="font-weight: bold; ">Coming Soon</h1>
+                <h1 >Rs:55/-</h1>
+                <h5 style="color:white;">Sales Package : Agarbatti 12 Packets(Total 216gm)</h5>
+
+                
+                <h1 style="font-weight: bold; color:white; ">Coming Soon</h1>
+                <h1 style="color:white;" >Rs:55/-</h1>
+                <h5 style="color:white; ">Brand : Ramji Agarbatti</h5>
+                <h5 style="color:white;">Model Name : Rajnigandha</h5>
+                <h5 style="color:white;">Type : Incense Sticks</h5>
+                <h5 style="color:white;">Fragrance : Flower</h5>
+                <h5 style="color:white;">Box Shape : SQUARE</h5>
+                <h5 style="color:white;">Maximum Shelf Life : 24 Months</h5>
+                <h5 style="color:white;">Handmade : No</h5>
+
+                <h5 style="color:white;">Model Number : RAJ5040MN</h5>
+                <h4 style="font-weight: bold; color:white;">Additional Features </h4>
+                <h5 style="color:white;"> Country of Origin : Made in India</h5>
+
+         </div>
+    </div>
+
+    </div>
+
+
